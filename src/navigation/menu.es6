@@ -15,7 +15,7 @@ const menu_config = {
 };
 
 const trade_messages = {
-   no_symbol : () => "Options trading is not available.".i18n(),
+   no_symbol : () => "Trading options isn’t possible in your country.".i18n(),
 };
 
 export const extractFilteredMarkets = (trading_times_data, options) => {
